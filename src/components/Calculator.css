@@ -1,0 +1,50 @@
+.card-stand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.card {
+  width: 478px;
+}
+
+.screen {
+  background: #9b9b9b;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 4px 11px;
+}
+
+.display {
+  color: #fff;
+  font-size: 24px;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  height: 52px;
+  border-width: 1px;
+  border-color: #e4e4e4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-gray {
+  background: #e0e0e0;
+}
+
+.btn-orange {
+  background: #f5913e;
+}
+
+.btn-gray-extra {
+  grid-column: 1 / 3;
+  background: #e0e0e0;
+}
