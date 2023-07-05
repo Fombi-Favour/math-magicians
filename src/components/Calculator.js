@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Calculator.css';
+import calculate from '../logic/calculate';
 
 const Calculator = () => (
   <div className="card-stand">
@@ -11,7 +12,7 @@ const Calculator = () => (
       </div>
       {/* buttons */}
       <div className="calc-buttons">
-        <button type="button" className="btn-gray">AC</button>
+        <button type="button" className="btn-gray" onClick={() => calculate()}>AC</button>
         <button type="button" className="btn-gray">+/-</button>
         <button type="button" className="btn-gray">%</button>
         <button type="button" className="btn-orange">÷</button>
