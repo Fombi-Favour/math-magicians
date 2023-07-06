@@ -29,7 +29,7 @@ const Quote = () => {
 
   return (
     <div className="quotes">
-      <p>
+      <p className="content">
         {isLoading === true ? (
           <span>Loading quotes...</span>
         ) : (
