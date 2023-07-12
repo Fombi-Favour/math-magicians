@@ -1,7 +1,48 @@
-.sections {
-  /* display: flex;
+/* navbar component */
+.navbar {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 40px; */
-  padding: 0 120px;
+  justify-content: space-around;
+  box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+  background-color: #8ec5fc;
+  background-image: -webkit-linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-image: -moz-linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-image: -o-linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.navbar h1 {
+  font-size: 32px;
+  color: #f3f2f2;
+}
+
+.menu-nav {
+  list-style-type: none;
+}
+
+.menu-nav li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.menu-nav li a {
+  text-decoration: none;
+  color: #f3f2f2;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Home router */
+.wrapper {
+  padding: 10px 3rem;
+}
+
+.wrapper h2 {
+  font-size: 32px;
+}
+
+.wrapper p {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #696767;
 }
