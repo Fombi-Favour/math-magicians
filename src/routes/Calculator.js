@@ -17,6 +17,8 @@ const Calculator = () => {
 
   return (
     <div className="card-stand">
+      {/* eslint-disable-next-line react/no-unescaped-entities */}
+      <h3>Let's do some math!</h3>
       <div className="card">
         {/* Screen section */}
         <div className="screen">
