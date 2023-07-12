@@ -1,16 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/App.css';
 
 const links = [
   { path: '/', text: 'Home' },
   { path: 'calculator', text: 'Calculator' },
-  { path: 'quotes', text: 'Quotes' },
+  { path: 'quote', text: 'Quote' },
 ];
 
 const Navbar = () => (
-  <div>
+  <nav className="navbar">
     <h1>Math Magicians</h1>
-    <ul>
+    <ul className="menu-nav">
       {links.map((link) => (
         <li key={link.text}>
           <NavLink to={link.path}>
@@ -19,7 +20,7 @@ const Navbar = () => (
         </li>
       ))}
     </ul>
-  </div>
+  </nav>
 );
 
 export default Navbar;
