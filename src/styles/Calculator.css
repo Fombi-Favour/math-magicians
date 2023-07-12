@@ -3,6 +3,12 @@
   align-items: center;
   justify-content: center;
   margin-top: 10%;
+  gap: 20rem;
+}
+
+.card-stand h3 {
+  color: #9b9b9b;
+  font-size: 30px;
 }
 
 .card {

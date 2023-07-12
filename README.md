@@ -5,7 +5,7 @@
   <img src="wave.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>"Math magicians" project</b></h3>
 
 </div>
 
@@ -84,13 +84,20 @@ Clone this repository to your desired folder:
   git clone https://github.com/Fombi-Favour/math-magicians.git
 ```
 ### Run tests
+- Check CSS style linter error by running this command:
+`npx stylelint "**/*.{css,scss}"`
+- Check JavaScript linter error by running this command:
+`npx eslint "**/*.{js,jsx}"`
 
+### Install
 1.- Install the project's dependencies by running this command:   
 `npm install`  
 2.- Generate the dist folder using this command:  
-`npm run build`  
-3.- Run this command to see the page `npm start`  
-4.- To see the code open the project in the code editor of your preference.
+`npm run build`
+
+### Usage
+1.- Run this command to see the page `npm start`  
+2.- To see the code open the project in the code editor of your preference.
 
 ### Deployment
 

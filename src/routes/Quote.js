@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Quote.css';
+import '../styles/Quote.css';
 
 const Quote = () => {
   const url = 'https://api.api-ninjas.com/v1/quotes?category=learning';
